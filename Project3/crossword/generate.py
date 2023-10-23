@@ -229,6 +229,7 @@ class CrosswordCreator():
                     return result
             assignment.pop(var)
             self.domains = old_domains
+            print(word,'false')
         return None
 
 
